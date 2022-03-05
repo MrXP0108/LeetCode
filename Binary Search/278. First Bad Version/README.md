@@ -29,7 +29,7 @@ Output: 1
 ```
 
 # Solutions
-C, C# || `O(log n)` || 0ms || 100%
+C || `O(log n)` || 0ms || 100%
   
 ```c
 int firstBadVersion(int n) {
