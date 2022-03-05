@@ -27,6 +27,7 @@ __C || `O(n)` || 112ms__
 Since `nums` is sorted in non-decreasing order, the following sentences are true:
 - If `nums[i], nums[i + 1] < 0`, then `nums[i]^2 > nums[i + 1]^2`.
 - If `nums[i], nums[i + 1] > 0`, then `nums[i]^2 < nums[i + 1]^2`.
+
 Hence either `nums[leftmost]^2` or `nums[rightmost]^2` is the biggest number in the resulting array.
 
 ```c
